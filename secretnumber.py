@@ -10,13 +10,13 @@ while True:
         attempts += 1
         print(f"Too high {3 - attempts} attempts remaining")
         if attempts == 3:
-         print("Game over, the number was 20")
+         print(f"Game over, the number was {secret}")
          break
 
     elif user_input < secret:
         attempts += 1
         print(f" Too low {3 - attempts} attempts remaining")
         if attempts == 3:
-         print("Game over, the number was 20")
+         print(f"Game over, the number was {secret}")
          break
    

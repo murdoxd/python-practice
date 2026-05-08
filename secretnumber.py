@@ -1,4 +1,5 @@
-secret = 20
+import random
+secret = random.randint(1, 100)
 attempts = 0
 while True:
     user_input = int(input("enter the number: "))
